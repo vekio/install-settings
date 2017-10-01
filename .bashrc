@@ -115,3 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+# Custom prompt
+export PS1="\[\033[48;5;12m\]\A\[$(tput sgr0)\]\[\033[48;5;-1m\] \[$(tput sgr0)\]\[\033[38;5;214m\]\u\[$(tput sgr0)\]\[\033[38;5;7m\]@\[$(tput sgr0)\]\[\033[38;5;106m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]\[\033[38;5;226m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
