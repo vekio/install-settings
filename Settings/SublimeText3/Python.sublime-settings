@@ -1,0 +1,18 @@
+// These settings override both User and Default settings for the Python syntax
+{
+	// Indentado Inteligente
+	"auto_indent": true,
+	"smart_indent": true,
+
+	// Whitespace
+	"tab_size": 4,
+	"trim_automatic_white_space": true,
+
+	// Word wrapping - follow PEP 8 recommendations
+	"rulers":
+	[
+		79
+	],
+	"word_wrap": true,
+	"wrap_width": 80
+}
