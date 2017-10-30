@@ -18,7 +18,7 @@ sudo dpkg -i /tmp/sublime-text_build-3143_amd64.deb
 
 rm /tmp/sublime-text_build-3143_amd64.deb
 
-# ./install-SublimeText3_vekioSettings.sh
+./install-SublimeText3_vekioSettings.sh
 
 echo "################################################################"
 echo "##############     Sublime Text 3 installed      ###############"
