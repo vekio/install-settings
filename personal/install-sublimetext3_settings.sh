@@ -21,24 +21,25 @@ git clone https://github.com/Colorsublime/Colorsublime-Plugin.git
 mv Colorsublime-Plugin $HOME/.config/sublime-text-3/Packages/
 
 # Afterglow Color Scheme
-cp /Settings/SublimeText3/Afterglow.tmTheme $HOME/.config/sublime-text-3/Packages/Colorsublime\ -\ Themes/
+mkdir /home/thedriver/.config/sublime-text-3/Packages/Colorsublime\ -\ Themes/
+cp ./personal/sublimetext3/Afterglow.tmTheme $HOME/.config/sublime-text-3/Packages/Colorsublime\ -\ Themes/
 
 # Sublime-Settings files
-cp /Settings/SublimeText3/*.sublime-settings $HOME/.config/sublime-text-3/Packages/User/
+cp ./personal/sublimetext3/*.sublime-settings $HOME/.config/sublime-text-3/Packages/User/
 
 # Snippets
-cp /Settings/SublimeText3/*.sublime-snippet $HOME/.config/sublime-text-3/Packages/User/
+cp ./personal/sublimetext3/*.sublime-snippet $HOME/.config/sublime-text-3/Packages/User/
 
 # a-file-icon-v3.2.1 (13 Apr 2017)
 wget https://github.com/ihodev/a-file-icon/archive/v3.2.1.tar.gz
 tar zxf v3.2.1.tar.gz
-move a-file-icon-3.2.1 $HOME/.config/sublime-text-3/Packages/A\ File\ Icon
+mv a-file-icon-3.2.1 $HOME/.config/sublime-text-3/Packages/A\ File\ Icon
 rm v3.2.1.tar.gz
 
 # anaconda-v2.1.24 (24 Sep 2017)
 wget https://github.com/DamnWidget/anaconda/archive/v2.1.24.tar.gz
 tar zxf v2.1.24.tar.gz
-move anaconda-v2.1.24 $HOME/.config/sublime-text-3/Packages/Anaconda
+mv anaconda-2.1.24 $HOME/.config/sublime-text-3/Packages/Anaconda
 rm v2.1.24.tar.gz
 
 echo "################################################################"

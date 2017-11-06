@@ -18,7 +18,7 @@ sudo dpkg -i /tmp/sublime-text_build-3143_amd64.deb
 
 rm /tmp/sublime-text_build-3143_amd64.deb
 
-# ./Personal/./install-SublimeText3_LinuxSettings.sh
+./personal/./install-sublimetext3_settings.sh
 
 echo "################################################################"
 echo "##############     Sublime Text 3 installed      ###############"
