@@ -18,9 +18,9 @@
 		"env3"
 	],
 	"ignored_packages":
-    [
-        "Vintage"
-    ],
+	[
+		"Vintage"
+	],
 
 	// Editor behavior
 	"scroll_past_end": false,
@@ -41,7 +41,7 @@
 
 	// Font
 	"line_padding_bottom": 0,
-    "line_padding_top": 0,
+	"line_padding_top": 0,
 	"font_size": 14,
 
 	// Spaces
@@ -52,5 +52,9 @@
 	// Cursor
 	"wide_caret": true,
 	"caret_style": "solid",
+
+	"word_wrap": true,
+	"default_line_ending": "unix",
+
 
 }
