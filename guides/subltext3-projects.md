@@ -48,3 +48,8 @@ Se puede abrir un workspace de la misma forma que un proyecto.
 Los archivos workspaces no deberian editarse manualmente ni compartirse en nuestros repositorios.
 Por ello deberían guardarse en una carpeta fuera de la carpeta raíz del proyecto.
 Y para asegurarse de que nuestro repositorio no lo guarda podemos añadir al gitignore el siguiente fragmento https://www.gitignore.io/api/sublimetext
+
+Borrar Proyectos
+-----------------
+Podemos borrar el archivo ```.sublime-project``` o ```.sublime-workspace``` siempre que no lo necesitemos sin ningún problema.
+Para evitar que un proyecto borrado y que ya no estamos trabajando siga apareciendo al hacer Quick Switch (Ctrl+Alt+P) vamos a **Project ➞ Open Project... ➞ Clear items**
