@@ -44,10 +44,10 @@ Un uso habitual consiste en crear distintos workspaces para las características
 Se puede abrir un workspace de la misma forma que un proyecto.
 
 
-> *Nota*
-Los archivos workspaces no deberian editarse manualmente ni compartirse en nuestros repositorios.
-Por ello deberían guardarse en una carpeta fuera de la carpeta raíz del proyecto.
-Y para asegurarse de que nuestro repositorio no lo guarda podemos añadir al gitignore el siguiente fragmento https://www.gitignore.io/api/sublimetext
+> _**Nota:**_
+> Los archivos workspaces no deberian editarse manualmente ni compartirse en nuestros repositorios.
+> Por ello deberían guardarse en una carpeta fuera de la carpeta raíz del proyecto.
+> Y para asegurarse de que nuestro repositorio no lo guarda podemos añadir al gitignore el siguiente fragmento https://www.gitignore.io/api/sublimetext
 
 Borrar Proyectos
 -----------------
