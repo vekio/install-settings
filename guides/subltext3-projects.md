@@ -9,11 +9,11 @@ Lo primero que debes saber es que siempre abres SublimeText hay un proyecto abie
 
 Crear Proyecto
 --------------
-* Comenzaremos con un proyecto anónimo limpio, es decir, ningún archivo/carpeta abierto.
+1. Comenzaremos con un proyecto anónimo limpio, es decir, ningún archivo/carpeta abierto.
 Para asegurarnos de ello vamos a **Project ➞ Close Project**
-* Ahora ya puedes añadir/arrastrar los archivos y carpetas que forman tu proyecto.
+2. Ahora ya puedes añadir/arrastrar los archivos y carpetas que forman tu proyecto.
 Para guardarlo vamos a **Project ➞ Save Project As...**
-* A la hora de guardar tienes dos opciones:
+3. A la hora de guardar tienes dos opciones:
     * Guardarlo en la carpeta raíz de tu proyecto.
     * Guardar todos los archivos de tus proyectos (```.sublime-project```) en la misma carpeta en el directorio que te sea más cómodo.
 Recomiendo esta segunda opción ya que será más cómodo a la hora de abrir proyectos guardados y evitamos añadirlo a nuestro repositorio git.
