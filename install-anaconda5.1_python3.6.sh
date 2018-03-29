@@ -11,10 +11,17 @@
 #
 ################################################################################
 
-rsync -av --delete /mnt/d/Universidad/UNI1718 /mnt/d/Dropbox
-rsync -av --delete /mnt/d/Programacion /mnt/d/Dropbox
-rsync -av --delete /mnt/d/Documentos/Libros /mnt/d/Dropbox
+# https://www.anaconda.com/download/
+
+# 29/03/2018 -> change to 5.1
+
+cd /home/$USER
+wget https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh
+
+bash Anaconda3-5.1.0-Linux-x86_64.sh
+rm Anaconda3-5.1.0-Linux-x86_64.sh
+
 
 echo "################################################################"
-echo "##############     Backup Dropbox Completed      ###############"
+echo "##############    Anaconda5_Python3.6 installed   ##############"
 echo "################################################################"

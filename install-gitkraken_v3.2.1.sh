@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #
 ################################################################################
@@ -21,7 +20,6 @@ sudo apt-get install libcurl3
 
 # Error with libcurl-gnutls.so.4
 # libcurl-gnutls.so.4: cannot open shared object file: No such file or directory
-
 # sudo ln -s /usr/lib64/libcurl.so.4 /usr/lib64/libcurl-gnutls.so.4
 
 # Error with libXss.so.1
